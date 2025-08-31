@@ -12,10 +12,10 @@ import static org.mockito.Mockito.when;
 class PostgreSQLConnectionPoolTest {
 
     @InjectMocks
-    private PostgreSQLConnectionPool connectionPool;
+    private MysqlConnectionPool connectionPool;
 
     @Mock
-    private PostgresqlConnectionProperties properties;
+    private MysqlConnectionProperties properties;
 
 
     @BeforeEach
@@ -25,7 +25,6 @@ class PostgreSQLConnectionPoolTest {
         when(properties.host()).thenReturn("localhost");
         when(properties.port()).thenReturn(5432);
         when(properties.database()).thenReturn("dbName");
-        when(properties.schema()).thenReturn("schema");
         when(properties.username()).thenReturn("username");
         when(properties.password()).thenReturn("password");
     }

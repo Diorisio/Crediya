@@ -1,25 +1,30 @@
 package co.com.pragma.api;
 
 import co.com.pragma.api.dto.RequestGuardarUsuarioDto;
+import co.com.pragma.api.excepcions.GlobalErrorHandler;
 import co.com.pragma.api.mapper.UsuarioEntityMapper;
 import co.com.pragma.model.usuario.Usuario;
 import co.com.pragma.usecase.usuario.UsuarioUseCase;
 import co.com.pragma.usecase.usuario.excepcions.EmailAlreadyRegisteredException;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import reactor.core.publisher.Mono;
+import static org.assertj.core.api.Assertions.assertThat;
+
 
 import java.math.BigInteger;
 import java.time.LocalDate;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
+@Import(GlobalErrorHandler.class)
 @ContextConfiguration(classes = {RouterRest.class, Handler.class})
 @WebFluxTest
 class RouterRestTest {
@@ -27,11 +32,15 @@ class RouterRestTest {
     @Autowired
     private WebTestClient webTestClient;
 
-    @Autowired
     private UsuarioUseCase userUseCase;
 
-    @MockBean
     private UsuarioEntityMapper userDtoMapper;
+
+    @BeforeEach
+    void setUp() {
+        userDtoMapper = mock(UsuarioEntityMapper.class);
+        userUseCase = mock(UsuarioUseCase.class);
+    }
 
     @Test
     void GuardarUser_Created() {
@@ -106,11 +115,13 @@ class RouterRestTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .bodyValue(request)
                 .exchange()
-                .expectStatus().isEqualTo(409)
-                .expectBody(String.class) // <-- en lugar de jsonPath
-                .consumeWith(result -> {
-                    System.out.println("⚡ Response body: " + result.getResponseBody());
-                });
+                .expectStatus().isEqualTo(409) // Conflict
+                .expectHeader().contentTypeCompatibleWith(MediaType.APPLICATION_JSON)
+                .expectBody()
+                .jsonPath("$.codigo").isEqualTo("DOM-003")
+                .jsonPath("$.mensaje").value(msg ->
+                        assertThat((String) msg).contains("carlos.perez@example.com"))
+                .jsonPath("$.timestamp").exists(); // ✅ timestamp siempre presente
 
     }
 }
