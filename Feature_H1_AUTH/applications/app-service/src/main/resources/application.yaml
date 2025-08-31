@@ -27,8 +27,8 @@ adapters:
       host: "localhost"
       port: 3306
       database: "usuario"
-      username: ${DB_USER}
-      password: ${DB_PASSWORD}
+      username: "root"
+      password: "Albert1879*"
 
 logging:
   file:

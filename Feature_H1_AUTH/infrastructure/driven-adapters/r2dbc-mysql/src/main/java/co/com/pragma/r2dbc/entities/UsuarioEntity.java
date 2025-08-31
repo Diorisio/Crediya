@@ -36,7 +36,6 @@ public class UsuarioEntity {
 
     private String telefono;
 
-
     @Column("salarioBase")
     private BigInteger salarioBase;
 }
