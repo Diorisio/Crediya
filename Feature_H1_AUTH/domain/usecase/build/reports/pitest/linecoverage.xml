@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='setUp()V' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='setUp()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='setUp()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getSalarioBase()Ljava/math/BigInteger;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getFechaNacimiento()Ljava/time/LocalDate;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='4'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='5'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='8'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='9'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='6'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='toString()Ljava/lang/String;' number='7'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='16'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='15'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='18'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='17'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='&lt;init&gt;(Lco/com/pragma/model/usuario/gateways/UsuarioRepository;)V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='&lt;init&gt;(Lco/com/pragma/model/usuario/gateways/UsuarioRepository;)V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='4'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='7'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='6'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='6'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='5'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='12'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='11'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='14'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='13'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='8'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='7'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='10'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldSaveUserWhenEmailNotExistsTest()V' number='9'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='existsByCorreoElectronico(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='existsByCorreoElectronico(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getDireccion()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getTelefono()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.gateways.UsuarioRepository$MockitoMock$eRPWhAO9' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getCorreoElectronico()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getNombre()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='getApellido()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;Ljava/lang/String;Ljava/math/BigInteger;)V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.usuario.Usuario' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;Ljava/lang/String;Ljava/math/BigInteger;)V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='saveUsuario(Lco/com/pragma/model/usuario/Usuario;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldSaveUserWhenEmailNotExistsTest()]'/>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='5'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='4'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCase' method='lambda$saveUsuario$0(Lco/com/pragma/model/usuario/Usuario;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='3'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='4'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='2'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='7'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='8'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='5'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='6'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='11'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='12'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='9'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='10'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='15'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='16'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='13'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.UsuarioUseCaseTest' method='shouldThrowExceptionWhenEmailAlreadyExistsTest()V' number='14'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.excepcions.EmailAlreadyRegisteredException' method='&lt;init&gt;(Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.usecase.usuario.excepcions.EmailAlreadyRegisteredException' method='&lt;init&gt;(Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.pragma.usecase.usuario.UsuarioUseCaseTest.[engine:junit-jupiter]/[class:co.com.pragma.usecase.usuario.UsuarioUseCaseTest]/[method:shouldThrowExceptionWhenEmailAlreadyExistsTest()]'/>
+</tests>
+</block>
+</coverage>
