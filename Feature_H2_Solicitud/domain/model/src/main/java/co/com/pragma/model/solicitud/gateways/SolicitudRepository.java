@@ -8,4 +8,5 @@ public interface SolicitudRepository {
     Mono<Solicitud> save(Solicitud solicitud);
 
     Mono<Boolean> existsByCorreoElectronico(String correoElectronico);
+
 }

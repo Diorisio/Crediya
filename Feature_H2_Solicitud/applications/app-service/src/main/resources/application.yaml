@@ -20,20 +20,47 @@ management:
     health:
       probes:
         enabled: true
+  health:
+    circuitbreakers:
+      enabled: true
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
 adapters:
   r2dbc:
     host: "localhost"
     port: 3306
-    database: "usuario"
+    database: "prestamo"
     username: "root"
     password: "Albert1879*"
-
 logging:
   file:
-    name: logs/miapp.log
+    name: "logs/miapp.log"
   level:
-    root: INFO
-    org.springframework: INFO
-    co.com.pragma: DEBUG
+    root: "INFO"
+    org.springframework: "INFO"
+    co.com.pragma: "DEBUG"
+adapter:
+  restconsumer:
+    timeout: 5000
+    url: "http://localhost:8081"
+resilience4j:
+  circuitbreaker:
+    instances:
+      testGet:
+        registerHealthIndicator: true
+        failureRateThreshold: 50
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: "2s"
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 10
+        waitDurationInOpenState: "10s"
+      testPost:
+        registerHealthIndicator: true
+        failureRateThreshold: 50
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: "2s"
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 10
+        waitDurationInOpenState: "10s"
