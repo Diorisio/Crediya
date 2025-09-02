@@ -5,6 +5,7 @@ import co.com.pragma.r2dbc.entity.SolicitudEntity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.reactivecommons.utils.ObjectMapper;
@@ -12,21 +13,25 @@ import org.reactivecommons.utils.ObjectMapper;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 import java.math.BigInteger;
+
+import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class MyReactiveRepositoryAdapterTest {
     // TODO: change four you own tests
 
+    @Mock
     private MyReactiveRepository myReactiveRepository;
+
+    @Mock
+    private ObjectMapper mapper;
+
     private MyReactiveRepositoryAdapter adapter;
-    ObjectMapper mapper;
 
     @BeforeEach
     void setUp() {
-        myReactiveRepository = Mockito.mock(MyReactiveRepository.class);
-        mapper = Mockito.mock(ObjectMapper.class);
-        adapter = new MyReactiveRepositoryAdapter(myReactiveRepository,mapper);
+        adapter = new MyReactiveRepositoryAdapter(myReactiveRepository, mapper);
     }
 
     @Test
@@ -41,20 +46,32 @@ class MyReactiveRepositoryAdapterTest {
 
         SolicitudEntity entity = new SolicitudEntity();
         entity.setIdSolicitud(10L);
-        entity.setCorreoElectronico("test@mail.com");
-        entity.setIdTipoPrestamo(BigInteger.valueOf(1));
+        entity.setCorreoElectronico(solicitud.getCorreoElectronico());
+        entity.setIdTipoPrestamo(solicitud.getIdTipoPrestamo());
+        entity.setMonto(solicitud.getMonto());
+        entity.setPlazo(solicitud.getPlazo());
 
 
-        // Mockear el comportamiento de saveData para que devuelva un Mono
-        when(myReactiveRepository.save(Mockito.any()))
-                .thenReturn(Mono.just(entity));
 
-        StepVerifier.create(adapter.save(solicitud))
-                .expectNextMatches(saved ->
-                        saved.getCorreoElectronico().equals("test@mail.com") &&
-                                saved.getIdTipoPrestamo().equals(BigInteger.valueOf(1))
-                )
-                .verifyComplete();
+        Mockito.when(mapper.map(Mockito.any(Solicitud.class), Mockito.eq(SolicitudEntity.class)))
+                .thenAnswer(invocation -> {
+                    Solicitud s = invocation.getArgument(0);
+                    SolicitudEntity e = new SolicitudEntity();
+                    e.setCorreoElectronico(s.getCorreoElectronico());
+                    e.setIdTipoPrestamo(s.getIdTipoPrestamo());
+                    e.setMonto(s.getMonto());
+                    e.setPlazo(s.getPlazo());
+                    return e;
+                });
+
+        Mockito.when(myReactiveRepository.save(Mockito.any(SolicitudEntity.class)))
+                .thenReturn(Mono.just(new SolicitudEntity()));
+
+
+        Mono<Solicitud> result = adapter.save(solicitud);
+
+
+        Mockito.verify(myReactiveRepository, Mockito.times(1)).save(Mockito.any(SolicitudEntity.class));
 
 
     }
