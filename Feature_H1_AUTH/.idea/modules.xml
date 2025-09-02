@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveProject.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/ReactiveProject.reactive-web.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/ReactiveProject.reactive-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.test.iml" />
+    </modules>
+  </component>
+</project>
