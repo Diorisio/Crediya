@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='getCorreoElectronico()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='setUp()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='setUp()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='setIdTipoPrestamo(Ljava/math/BigInteger;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='getIdTipoPrestamo()Ljava/math/BigInteger;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='builder()Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='builder()Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='idTipoPrestamo(Ljava/math/BigInteger;)Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='&lt;init&gt;(Ljava/math/BigInteger;Ljava/lang/Double;Ljava/lang/Integer;Ljava/math/BigInteger;Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='&lt;init&gt;(Ljava/math/BigInteger;Ljava/lang/Double;Ljava/lang/Integer;Ljava/math/BigInteger;Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='monto(Ljava/lang/Double;)Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='setIdSolicitud(Ljava/lang/Long;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='correoElectronico(Ljava/lang/String;)Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='setCorreoElectronico(Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='identificacion(Ljava/math/BigInteger;)Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='build()Lco/com/pragma/model/solicitud/Solicitud;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='build()Lco/com/pragma/model/solicitud/Solicitud;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='15'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='16'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='save(Lco/com/pragma/r2dbc/entity/SolicitudEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='save(Lco/com/pragma/r2dbc/entity/SolicitudEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='4'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='setPlazo(Ljava/lang/Integer;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='7'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='8'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='5'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='6'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapter' method='&lt;init&gt;(Lco/com/pragma/r2dbc/MyReactiveRepository;Lorg/reactivecommons/utils/ObjectMapper;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapter' method='&lt;init&gt;(Lco/com/pragma/r2dbc/MyReactiveRepository;Lorg/reactivecommons/utils/ObjectMapper;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='9'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudExitosamenteTest$0(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;' number='10'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='37'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='38'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='35'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='36'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='33'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='getMonto()Ljava/lang/Double;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='34'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toData(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toData(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud$SolicitudBuilder' method='plazo(Ljava/lang/Integer;)Lco/com/pragma/model/solicitud/Solicitud$SolicitudBuilder;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='23'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='24'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='21'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='22'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='19'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='20'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='17'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='18'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='31'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='32'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='29'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='30'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='27'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='28'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='25'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudExitosamenteTest()V' number='26'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='24'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='23'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='26'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='25'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.entity.SolicitudEntity' method='setMonto(Ljava/lang/Double;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='16'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='15'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='17'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='19'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.model.solicitud.Solicitud' method='getPlazo()Ljava/lang/Integer;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='22'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepository$MockitoMock$AgpeOHW7' method='&lt;clinit&gt;()V' number='21'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudExitosamenteTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='lambda$guardarSolicitudConDtoNuloLanzaNullPointerTest$0()Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudConDtoNuloLanzaNullPointerTest()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudConDtoNuloLanzaNullPointerTest()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudConDtoNuloLanzaNullPointerTest()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudConDtoNuloLanzaNullPointerTest()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest' method='guardarSolicitudConDtoNuloLanzaNullPointerTest()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest]/[method:guardarSolicitudConDtoNuloLanzaNullPointerTest()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='9'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='6'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='7'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='4'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='5'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='16'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='17'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='14'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='15'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='12'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='15'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='13'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='16'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='10'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='17'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='11'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.MysqlConnectionPool' method='getConnectionConfig(Lco/com/pragma/r2dbc/config/MysqlConnectionProperties;)Lio/asyncer/r2dbc/mysql/MySqlConnectionConfiguration;' number='18'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='hashCode()I' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='hashCode()I' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='getName()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='13'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='16'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='15'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='getId()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='26'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='25'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='19'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='17'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='24'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='23'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='22'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='&lt;clinit&gt;()V' number='21'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findAll()Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findAll()Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$1' method='&lt;init&gt;(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest;Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$1' method='&lt;init&gt;(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest;Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findById(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findById(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='15'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='16'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='saveAll(Lorg/reactivestreams/Publisher;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='saveAll(Lorg/reactivestreams/Publisher;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='19'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='20'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='17'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='18'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='14'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findAll(Lorg/springframework/data/domain/Example;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='findAll(Lorg/springframework/data/domain/Example;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='save(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$hNIeB8jb' method='save(Lco/com/pragma/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='0'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='2'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='1'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='4'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='3'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='6'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='5'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='8'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='7'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='10'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='9'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='12'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='11'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='13'><tests>
+<test name='co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.pragma.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+</coverage>

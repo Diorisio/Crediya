@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SolicitudUseCase.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">usecase</a> &gt; <a href="index.source.html" class="el_package">co.com.pragma.usecase.solicitud</a> &gt; <span class="el_source">SolicitudUseCase.java</span></div><h1>SolicitudUseCase.java</h1><pre class="source lang-java linenums">package co.com.pragma.usecase.solicitud;
+
+import co.com.pragma.model.solicitud.Solicitud;
+import co.com.pragma.model.solicitud.gateways.SolicitudRepository;
+import co.com.pragma.model.solicitud.gateways.TipoPrestamoRepository;
+import co.com.pragma.model.solicitud.gateways.UsuarioClient;
+import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
+import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
+import lombok.RequiredArgsConstructor;
+import reactor.core.publisher.Mono;
+
+@RequiredArgsConstructor
+public class SolicitudUseCase {
+
+    private final SolicitudRepository solicitudRepository;
+    private final UsuarioClient usuarioClient;
+    private final TipoPrestamoRepository tipoPrestamoRepository;
+
+    public Mono&lt;Solicitud&gt; save(Solicitud solicitud)
+        {
+<span class="fc" id="L21">            return usuarioClient.existeUsuario(solicitud.getIdentificacion())</span>
+<span class="fc" id="L22">                    .flatMap(existe -&gt; {</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">                        if (!existe) {</span>
+<span class="fc" id="L24">                            return Mono.error(new UsuarioNotFoundException(solicitud.getIdentificacion()));</span>
+                        }
+<span class="fc" id="L26">                        return tipoPrestamoRepository.existsByIdTipoPrestamo(solicitud.getIdTipoPrestamo())</span>
+<span class="fc" id="L27">                                .flatMap(exists -&gt; {</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">                                    if (!exists) {</span>
+<span class="fc" id="L29">                                        return Mono.error(new TipoPrestamoNotFoundException(solicitud.getIdTipoPrestamo()));</span>
+                                    }
+<span class="fc" id="L31">                                    return solicitudRepository.save(solicitud);</span>
+                                });
+                    });
+        }
+
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
