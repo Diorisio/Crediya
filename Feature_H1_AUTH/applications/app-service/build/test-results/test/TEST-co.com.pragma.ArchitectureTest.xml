@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.pragma.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-08-31T23:21:47.366Z" hostname="DESKTOP-VPLJBJ7" time="1.234">
+  <properties/>
+  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="co.com.pragma.ArchitectureTest" time="0.464"/>
+  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="co.com.pragma.ArchitectureTest" time="0.129"/>
+  <testcase name="useCaseFinalFields()" classname="co.com.pragma.ArchitectureTest" time="0.036"/>
+  <testcase name="beansShouldOnlyHaveFinalFields()" classname="co.com.pragma.ArchitectureTest" time="0.061"/>
+  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="co.com.pragma.ArchitectureTest" time="0.164"/>
+  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="co.com.pragma.ArchitectureTest" time="0.007"/>
+  <system-out><![CDATA[18:21:38.570 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 24.0.2
+]]></system-out>
+  <system-err><![CDATA[ago 31, 2025 6:21:47 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+ago 31, 2025 6:21:47 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+ago 31, 2025 6:21:48 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+ago 31, 2025 6:21:48 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+ago 31, 2025 6:21:48 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+ago 31, 2025 6:21:48 P.M. co.com.pragma.Utils findFiles
+INFO: Range [-1, 185) out of bounds for length 185
+]]></system-err>
+</testsuite>

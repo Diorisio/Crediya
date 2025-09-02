@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MyReactiveRepositoryPrestamoAdapter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">r2dbc-mysql</a> &gt; <a href="index.source.html" class="el_package">co.com.pragma.r2dbc</a> &gt; <span class="el_source">MyReactiveRepositoryPrestamoAdapter.java</span></div><h1>MyReactiveRepositoryPrestamoAdapter.java</h1><pre class="source lang-java linenums">package co.com.pragma.r2dbc;
+
+import co.com.pragma.model.solicitud.Solicitud;
+import co.com.pragma.model.solicitud.TipoPrestamo;
+import co.com.pragma.model.solicitud.gateways.TipoPrestamoRepository;
+import co.com.pragma.r2dbc.entity.TipoPrestamoEntity;
+import co.com.pragma.r2dbc.helper.ReactiveAdapterOperations;
+import org.reactivecommons.utils.ObjectMapper;
+import org.springframework.stereotype.Repository;
+import reactor.core.publisher.Mono;
+
+import java.math.BigInteger;
+
+@Repository
+public class MyReactiveRepositoryPrestamoAdapter extends ReactiveAdapterOperations&lt;
+        TipoPrestamo,
+        TipoPrestamoEntity,
+        Long,
+        MyReactiveRepositoryPrestamo
+&gt; implements TipoPrestamoRepository {
+    public MyReactiveRepositoryPrestamoAdapter(MyReactiveRepositoryPrestamo repository, ObjectMapper mapper) {
+        /**
+         *  Could be use mapper.mapBuilder if your domain model implement builder pattern
+         *  super(repository, mapper, d -&gt; mapper.mapBuilder(d,ObjectModel.ObjectModelBuilder.class).build());
+         *  Or using mapper.map with the class of the object model
+         */
+<span class="nc" id="L27">        super(repository, mapper, d -&gt; mapper.map(d, TipoPrestamo.class));</span>
+<span class="nc" id="L28">    }</span>
+
+
+    @Override
+    public Mono&lt;Boolean&gt; existsByIdTipoPrestamo(BigInteger idTipoPrestamo) {
+<span class="nc" id="L33">        return super.repository.existsByIdTipoPrestamo(idTipoPrestamo);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
