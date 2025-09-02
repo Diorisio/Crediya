@@ -6,21 +6,20 @@ import jakarta.validation.constraints.NotNull;
 
 import java.math.BigInteger;
 
-
 public record RequestSolicitud(
         @NotNull
-        @NotBlank
         Double monto,
         @NotNull
-        @NotBlank
-        String plazo,
+        Integer  plazo,
         @NotNull
         @NotBlank
         @Email
-        String email,
+        String correoElectronico,
+
         BigInteger id_estado,
 
-        BigInteger id_tipo_prestamo
+        BigInteger idTipoPrestamo,
 
+        BigInteger identificacion
 ) {
 }

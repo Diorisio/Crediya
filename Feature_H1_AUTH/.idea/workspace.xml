@@ -4,189 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9280b59f-3fb6-42c7-9455-7a8a72dc0c29" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/ReactiveProject.r2dbc-mysql.test.iml" afterDir="false" />
+    <list default="true" id="2fe9a5a7-06e7-4a96-be95-b854ebd96644" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Feature_H2_Solicitud/applications/app-service/src/test/java/co/com/pragma/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Feature_H2_Solicitud/applications/app-service/src/test/java/co/com/pragma/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ReactiveProject" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Record" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="31kxq055vEohxNXIxgOUVkVK7t6" />
+  <component name="ProjectId" id="325GjemWeO95d7XRX6Xs7KhjBXp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.Build Feature_H1_AUTH.executor": "Run",
-    "Gradle.Build autenticaacionMS.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.RouterRestTest.saveUser_EmailAlreadyRegistered_ReturnsConflict.executor": "Run",
-    "Gradle.autenticaacionMS [dependencies].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.MainApplication.executor": "Debug",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "H2__SOLICITUD",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/workspace/Crediya/Feature_H1_AUTH",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
-  <component name="RunManager" selected="Gradle.RouterRestTest.saveUser_EmailAlreadyRegistered_ReturnsConflict">
-    <configuration name="RouterRestTest.saveUser_EmailAlreadyRegistered_ReturnsConflict" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":reactive-web:test" />
-            <option value="--tests" />
-            <option value="&quot;co.com.pragma.api.RouterRestTest.saveUser_EmailAlreadyRegistered_ReturnsConflict&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="autenticaacionMS [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="autenticaacionMS [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="ReactiveProject.app-service.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.pragma.MainApplication" />
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ReactiveProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="ReactiveProject.app-service.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.pragma.MainApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ReactiveProject" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.RouterRestTest.saveUser_EmailAlreadyRegistered_ReturnsConflict" />
-        <item itemvalue="Gradle.autenticaacionMS [dependencies]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -198,55 +58,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9280b59f-3fb6-42c7-9455-7a8a72dc0c29" name="Changes" comment="" />
-      <created>1756082059973</created>
+      <changelist id="2fe9a5a7-06e7-4a96-be95-b854ebd96644" name="Changes" comment="" />
+      <created>1756703156203</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1756082059973</updated>
-      <workItem from="1756082061893" duration="13838000" />
-      <workItem from="1756096632429" duration="383000" />
-      <workItem from="1756097116513" duration="822000" />
-      <workItem from="1756098001125" duration="247000" />
-      <workItem from="1756098314579" duration="354000" />
-      <workItem from="1756164674920" duration="2053000" />
-      <workItem from="1756166945825" duration="5617000" />
-      <workItem from="1756181405307" duration="16939000" />
-      <workItem from="1756271687444" duration="16920000" />
-      <workItem from="1756702182283" duration="195000" />
+      <updated>1756703156203</updated>
+      <workItem from="1756703157890" duration="53000" />
+      <workItem from="1756703241904" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/infrastructure/entry-points/reactive-web/src/main/java/co/com/pragma/api/mapper/UsuarioEntityMapper.java</url>
-          <line>11</line>
-          <properties class="co.com.pragma.api.mapper.UsuarioEntityMapper">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.r2dbc.BadSqlGrammarException" package="org.springframework.r2dbc" />
-          <option name="timeStamp" value="7" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
