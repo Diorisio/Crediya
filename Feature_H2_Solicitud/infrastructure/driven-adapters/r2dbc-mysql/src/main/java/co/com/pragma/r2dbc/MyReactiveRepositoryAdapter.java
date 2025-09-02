@@ -8,6 +8,8 @@ import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Mono;
 
+import java.math.BigInteger;
+
 @Repository
 public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
         Solicitud,
@@ -21,11 +23,7 @@ public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
          *  super(repository, mapper, d -> mapper.mapBuilder(d,ObjectModel.ObjectModelBuilder.class).build());
          *  Or using mapper.map with the class of the object model
          */
-        super(repository, mapper, d -> mapper.map(d, Solicitud.class/* change for domain model */));
+        super(repository, mapper, d -> mapper.map(d, Solicitud.class));
     }
 
-    @Override
-    public Mono<Boolean> existsByCorreoElectronico(String correoElectronico) {
-        return null;
-    }
 }

@@ -1,78 +1,69 @@
 package co.com.pragma.r2dbc;
 
+import co.com.pragma.model.solicitud.Solicitud;
+import co.com.pragma.r2dbc.entity.SolicitudEntity;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.reactivecommons.utils.ObjectMapper;
-import org.springframework.data.domain.Example;
-import reactor.core.publisher.Flux;
+
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
-
-import static org.mockito.ArgumentMatchers.any;
+import java.math.BigInteger;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class MyReactiveRepositoryAdapterTest {
     // TODO: change four you own tests
 
-    @InjectMocks
-    MyReactiveRepositoryAdapter repositoryAdapter;
-
-    @Mock
-    MyReactiveRepository repository;
-
-    @Mock
+    private MyReactiveRepository myReactiveRepository;
+    private MyReactiveRepositoryAdapter adapter;
     ObjectMapper mapper;
 
-    @Test
-    void mustFindValueById() {
-
-        when(repository.findById("1")).thenReturn(Mono.just("test"));
-        when(mapper.map("test", Object.class)).thenReturn("test");
-
-        Mono<Object> result = repositoryAdapter.findById("1");
-
-        StepVerifier.create(result)
-                .expectNextMatches(value -> value.equals("test"))
-                .verifyComplete();
+    @BeforeEach
+    void setUp() {
+        myReactiveRepository = Mockito.mock(MyReactiveRepository.class);
+        mapper = Mockito.mock(ObjectMapper.class);
+        adapter = new MyReactiveRepositoryAdapter(myReactiveRepository,mapper);
     }
 
     @Test
-    void mustFindAllValues() {
-        when(repository.findAll()).thenReturn(Flux.just("test"));
-        when(mapper.map("test", Object.class)).thenReturn("test");
+    void guardarSolicitudExitosamenteTest() {
+        Solicitud solicitud = Solicitud.builder()
+                .identificacion(BigInteger.valueOf(123456))
+                .correoElectronico("test@mail.com")
+                .idTipoPrestamo(BigInteger.valueOf(1))
+                .monto(1000.0)
+                .plazo(12)
+                .build();
 
-        Flux<Object> result = repositoryAdapter.findAll();
+        SolicitudEntity entity = new SolicitudEntity();
+        entity.setIdSolicitud(10L);
+        entity.setCorreoElectronico("test@mail.com");
+        entity.setIdTipoPrestamo(BigInteger.valueOf(1));
 
-        StepVerifier.create(result)
-                .expectNextMatches(value -> value.equals("test"))
+
+        // Mockear el comportamiento de saveData para que devuelva un Mono
+        when(myReactiveRepository.save(Mockito.any()))
+                .thenReturn(Mono.just(entity));
+
+        StepVerifier.create(adapter.save(solicitud))
+                .expectNextMatches(saved ->
+                        saved.getCorreoElectronico().equals("test@mail.com") &&
+                                saved.getIdTipoPrestamo().equals(BigInteger.valueOf(1))
+                )
                 .verifyComplete();
+
+
     }
 
-    @Test
-    void mustFindByExample() {
-        when(repository.findAll(any(Example.class))).thenReturn(Flux.just("test"));
-        when(mapper.map("test", Object.class)).thenReturn("test");
-
-        Flux<Object> result = repositoryAdapter.findByExample("test");
-
-        StepVerifier.create(result)
-                .expectNextMatches(value -> value.equals("test"))
-                .verifyComplete();
-    }
 
     @Test
-    void mustSaveValue() {
-        when(repository.save("test")).thenReturn(Mono.just("test"));
-        when(mapper.map("test", Object.class)).thenReturn("test");
-
-        Mono<Object> result = repositoryAdapter.save("test");
-
-        StepVerifier.create(result)
-                .expectNextMatches(value -> value.equals("test"))
-                .verifyComplete();
+    void guardarSolicitudConDtoNuloLanzaNullPointerTest() {
+        StepVerifier.create(Mono.defer(() -> adapter.save(null)))
+                .expectError(NullPointerException.class)
+                .verify();
     }
 }

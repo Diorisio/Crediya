@@ -29,7 +29,7 @@ adapters:
   r2dbc:
     host: "localhost"
     port: 3306
-    database: "prestamo"
+    database: "prestamos"
     username: "root"
     password: "Albert1879*"
 logging:
@@ -42,7 +42,7 @@ logging:
 adapter:
   restconsumer:
     timeout: 5000
-    url: "http://localhost:8081"
+    url: "http://localhost:8080"
 resilience4j:
   circuitbreaker:
     instances:

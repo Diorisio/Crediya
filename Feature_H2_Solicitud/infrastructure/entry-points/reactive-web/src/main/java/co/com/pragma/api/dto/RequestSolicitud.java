@@ -10,8 +10,7 @@ public record RequestSolicitud(
         @NotNull
         Double monto,
         @NotNull
-        @NotBlank
-        String plazo,
+        Integer  plazo,
         @NotNull
         @NotBlank
         @Email
@@ -19,14 +18,8 @@ public record RequestSolicitud(
 
         BigInteger id_estado,
 
-        BigInteger id_tipo_prestamo,
+        BigInteger idTipoPrestamo,
 
         BigInteger identificacion
 ) {
-
-    public RequestSolicitud {
-        if (id_estado == null) {
-            id_estado = BigInteger.ONE;
-        }
-    }
 }

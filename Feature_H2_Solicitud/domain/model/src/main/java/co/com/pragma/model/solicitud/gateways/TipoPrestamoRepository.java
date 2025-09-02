@@ -4,7 +4,7 @@ import reactor.core.publisher.Mono;
 
 import java.math.BigInteger;
 
-public interface UsuarioClient {
+public interface TipoPrestamoRepository {
 
-    Mono<Boolean> existeUsuario(BigInteger documentoIdentificacion);
+    Mono<Boolean> existsByIdTipoPrestamo(BigInteger idTipoPrestamo);
 }

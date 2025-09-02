@@ -12,13 +12,13 @@ import java.time.LocalDate;
 @Builder(toBuilder = true)
 public class Solicitud {
 
-    private String documentoIdentificacion;
+    private BigInteger identificacion;
 
-    private String monto;
+    private Double monto;
 
-    private String plazo ;
+    private Integer plazo ;
 
-    private String tipoPrestamo;
+    private BigInteger idTipoPrestamo;
 
     private String correoElectronico;
 
