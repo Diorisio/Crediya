@@ -12,6 +12,7 @@ import java.time.LocalDate;
 @Builder(toBuilder = true)
 public class Usuario {
 
+    private Long idusuario;
 
     private String nombre;
 
@@ -26,6 +27,14 @@ public class Usuario {
     private String telefono;
 
     private BigInteger salarioBase;
+
+    private String documentoIdentidad;
+
+    private String password;
+
+    private String idRol;
+
+    private Integer intentos;
 
 
 }

@@ -9,14 +9,16 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Mono;
 
+import java.math.BigInteger;
+
 @Repository
 @Transactional
 public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
         Usuario,
         UsuarioEntity,
-    Long,
-    MyReactiveRepository
-> implements UsuarioRepository {
+        Long,
+        MyReactiveRepository
+        > implements UsuarioRepository {
     public MyReactiveRepositoryAdapter(MyReactiveRepository repository, ObjectMapper mapper) {
         /**
          *  Could be use mapper.mapBuilder if your domain model implement builder pattern
@@ -34,6 +36,16 @@ public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
     @Override
     public Mono<Boolean> existsByCorreoElectronico(String correoElectronico) {
         return super.repository.existsByCorreoElectronico(correoElectronico);
+    }
+
+    @Override
+    public Mono<Boolean> existsBydocumentoIdentidad(String documentoIdentidad) {
+        return super.repository.existsByDocumentoIdentidad(documentoIdentidad);
+    }
+
+    @Override
+    public Mono<Usuario> findByCorreoElectronico(String correoElectronico) {
+        return super.repository.findByCorreoElectronico(correoElectronico);
     }
 
 }
