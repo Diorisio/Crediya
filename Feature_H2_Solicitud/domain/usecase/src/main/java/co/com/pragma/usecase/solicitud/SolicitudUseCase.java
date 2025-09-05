@@ -5,6 +5,7 @@ import co.com.pragma.model.solicitud.gateways.SolicitudRepository;
 import co.com.pragma.model.solicitud.gateways.TipoPrestamoRepository;
 import co.com.pragma.model.solicitud.gateways.UsuarioClient;
 import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
+import co.com.pragma.usecase.solicitud.excepcions.TokenEmailNotMatch;
 import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;
@@ -16,8 +17,11 @@ public class SolicitudUseCase {
     private final UsuarioClient usuarioClient;
     private final TipoPrestamoRepository tipoPrestamoRepository;
 
-    public Mono<Solicitud> save(Solicitud solicitud)
+    public Mono<Solicitud> save(Solicitud solicitud,String emailToken)
         {
+            if (!solicitud.getCorreoElectronico().equals(emailToken)) {
+                return Mono.error(new TokenEmailNotMatch());
+            }
             return usuarioClient.existeUsuario(solicitud.getIdentificacion())
                     .flatMap(existe -> {
                         if (!existe) {
@@ -28,7 +32,7 @@ public class SolicitudUseCase {
                                     if (!exists) {
                                         return Mono.error(new TipoPrestamoNotFoundException(solicitud.getIdTipoPrestamo()));
                                     }
-                                    return solicitudRepository.save(solicitud);
+                                    return solicitudRepository.save(solicitud, emailToken);
                                 });
                     });
         }

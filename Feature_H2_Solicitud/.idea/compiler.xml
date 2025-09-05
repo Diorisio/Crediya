@@ -7,13 +7,19 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="ReactiveProject.r2dbc-mysql.main" />
+        <module name="ReactiveProject.jwt.test" />
+        <module name="ReactiveProject.app-service.main" />
+        <module name="ReactiveProject.auth-security.test" />
+        <module name="ReactiveProject.rest-consumer.main" />
+        <module name="ReactiveProject.app-service.test" />
+        <module name="ReactiveProject.rest-consumer.test" />
+        <module name="ReactiveProject.auth-security.main" />
         <module name="ReactiveProject.model.test" />
         <module name="ReactiveProject.r2dbc-mysql.test" />
         <module name="ReactiveProject.usecase.main" />
         <module name="ReactiveProject.usecase.test" />
-        <module name="ReactiveProject.app-service.main" />
         <module name="ReactiveProject.reactive-web.test" />
-        <module name="ReactiveProject.app-service.test" />
         <module name="ReactiveProject.model.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
@@ -23,7 +29,14 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.6.3/52e345c907fbf173b376586c7f8b131d53fa5867/mapstruct-processor-1.6.3.jar" />
         </processorPath>
         <module name="ReactiveProject.reactive-web.main" />
-        <module name="ReactiveProject.r2dbc-mysql.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.5.4/5bca23f43154ba43fbe171feae198f21d0ed7670/spring-boot-configuration-processor-3.5.4.jar" />
+        </processorPath>
+        <module name="ReactiveProject.jwt.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />

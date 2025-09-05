@@ -64,3 +64,6 @@ resilience4j:
         slidingWindowSize: 10
         minimumNumberOfCalls: 10
         waitDurationInOpenState: "10s"
+jwt:
+  secret-key: aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!
+  expiration: 3600   # en segundos (1 hora)

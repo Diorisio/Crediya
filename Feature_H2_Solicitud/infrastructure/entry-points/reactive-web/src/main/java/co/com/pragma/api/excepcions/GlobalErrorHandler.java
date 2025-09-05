@@ -3,6 +3,7 @@ package co.com.pragma.api.excepcions;
 
 import co.com.pragma.api.dto.ErrorResponse;
 import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
+import co.com.pragma.usecase.solicitud.excepcions.TokenEmailNotMatch;
 import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -54,7 +55,15 @@ public class GlobalErrorHandler implements WebExceptionHandler {
                     .mensaje("Petición incorrecta: " + ex.getMessage())
                     .timestamp(LocalDateTime.now())
                     .build();
-        } else if (ex instanceof UsuarioNotFoundException) {
+        } else if (ex instanceof TokenEmailNotMatch) {
+            status = HttpStatus.NOT_FOUND;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-003")
+                    .mensaje(ex.getMessage())
+                    .timestamp(LocalDateTime.now())
+                    .build();
+
+        }else if (ex instanceof UsuarioNotFoundException) {
             status = HttpStatus.NOT_FOUND;
             body = ErrorResponse.builder()
                     .codigo("DOM-004")
@@ -62,7 +71,8 @@ public class GlobalErrorHandler implements WebExceptionHandler {
                     .timestamp(LocalDateTime.now())
                     .build();
 
-        } else if (ex instanceof TipoPrestamoNotFoundException) {
+        }
+        else if (ex instanceof TipoPrestamoNotFoundException) {
             status = HttpStatus.NOT_FOUND;
             body = ErrorResponse.builder()
                     .codigo("DOM-005")
