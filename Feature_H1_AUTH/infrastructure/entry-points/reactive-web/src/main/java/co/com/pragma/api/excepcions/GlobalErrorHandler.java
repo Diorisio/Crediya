@@ -1,7 +1,7 @@
 package co.com.pragma.api.excepcions;
 
 import co.com.pragma.api.dto.ErrorResponse;
-import co.com.pragma.usecase.usuario.excepcions.EmailAlreadyRegisteredException;
+import co.com.pragma.usecase.usuario.excepcions.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -60,7 +60,43 @@ public class GlobalErrorHandler implements WebExceptionHandler {
                     .mensaje(ex.getMessage())
                     .timestamp(LocalDateTime.now())
                     .build();
-        }else {
+        } else if (ex instanceof UsuarioNotFoundException) {
+            status = HttpStatus.NOT_FOUND;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-004")
+                    .mensaje(ex.getMessage())
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        } else if (ex instanceof CredencialesInvalidasException) {
+            status = HttpStatus.UNAUTHORIZED;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-005")
+                    .mensaje("Credenciales inválidas: " + ex.getMessage())
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        } else if (ex instanceof CuentaBloqueadaException) {
+            status = HttpStatus.FORBIDDEN;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-006")
+                    .mensaje("La cuenta está bloqueada por múltiples intentos fallidos")
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        } else if (ex instanceof TokenInvalidoException) {
+            status = HttpStatus.UNAUTHORIZED;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-007")
+                    .mensaje("El token JWT es inválido o ha expirado")
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        }else if (ex instanceof UsuarioNoEncontradoEmailException) {
+            status = HttpStatus.FORBIDDEN;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-009")
+                    .mensaje("El usuario no se encuentra registrado")
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        }
+        else {
             status = HttpStatus.INTERNAL_SERVER_ERROR;
             body = ErrorResponse.builder()
                     .codigo("DOM-999")

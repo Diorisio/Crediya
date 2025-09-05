@@ -3,7 +3,6 @@ package co.com.pragma.api.dto;
 
 
 import jakarta.validation.constraints.*;
-
 import java.math.BigInteger;
 
 
@@ -30,6 +29,12 @@ public record RequestGuardarUsuarioDto(
         @NotNull
         @DecimalMin(value = "0", message = "El salario no puede ser menor que 0")
         @DecimalMax(value = "15000000", message = "El salario no puede ser mayor que 15.000.000")
-         BigInteger salarioBase
+         BigInteger salarioBase,
+        @NotBlank
+        @NotNull
+        String password,
+
+        @NotNull
+        String documentoIdentidad
 ) {
 }

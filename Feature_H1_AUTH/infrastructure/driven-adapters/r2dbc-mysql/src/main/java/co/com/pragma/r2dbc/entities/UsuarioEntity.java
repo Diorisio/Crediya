@@ -20,7 +20,7 @@ public class UsuarioEntity {
 
     @Id
     @Column("idusuario")
-    private Long idusuario;
+    private BigInteger idusuario;
 
     private String nombre;
 
@@ -38,4 +38,15 @@ public class UsuarioEntity {
 
     @Column("salarioBase")
     private BigInteger salarioBase;
+
+    @Column("documento_identidad")
+    private BigInteger documentoIdentidad;
+
+    @Column("contrasena")
+    private String password;
+
+    @Column("id_rol")
+    private String idRol;
+
+    private Integer intentos;
 }

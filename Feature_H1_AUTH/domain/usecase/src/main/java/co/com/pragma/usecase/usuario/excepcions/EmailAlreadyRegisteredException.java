@@ -9,3 +9,4 @@ public class EmailAlreadyRegisteredException extends RuntimeException{
         this.email = email;
     }
 }
+

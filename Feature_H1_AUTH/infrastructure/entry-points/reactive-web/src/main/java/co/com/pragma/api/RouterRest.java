@@ -1,7 +1,10 @@
 package co.com.pragma.api;
 
+import co.com.pragma.api.dto.AuthRequestDto;
 import co.com.pragma.api.dto.RequestGuardarUsuarioDto;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -14,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
+import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
 import static org.springframework.web.reactive.function.server.RequestPredicates.POST;
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 
@@ -26,7 +30,7 @@ public class RouterRest {
             @RouterOperation(
                     path = "/api/v1/usuarios",
                     produces = {"application/json"},
-                    method = RequestMethod.POST,
+                    method = RequestMethod.GET,
                     beanClass = Handler.class,
                     beanMethod = "listenPOSTGuardarCase",
                     operation = @Operation(
@@ -34,22 +38,75 @@ public class RouterRest {
                             summary = "Registrar un nuevo usuario",
                             description = "Crear un usuario con la informacion suministrada",
                             tags = {"Usuario"},
-                            requestBody = @RequestBody(
-                                    required = true,
-                                    description = "Peticion del registro de usuario",
-                                    content = @Content(schema = @Schema(implementation = RequestGuardarUsuarioDto.class))
-                            ),
                             responses = {
                                     @ApiResponse(responseCode = "200", description = "Usuario registrado exitosamente",
                                             content = @Content(schema = @Schema(implementation = RequestGuardarUsuarioDto.class)))
+                            }
+                    )
+            ),
+
+            @RouterOperation(
+                    path = "/api/v1/usuarios/{documento}",
+                    produces = {"application/json"},
+                    method = RequestMethod.POST,
+                    beanClass = Handler.class,
+                    beanMethod = "listenGETBuscarUsuario",
+                    operation = @Operation(
+                            operationId = "existsBydocumentoIdentidad",
+                            summary = "Buscar un usuario",
+                            description = "Buscar un usuario por documento",
+                            tags = {"Usuario"},
+                            requestBody = @RequestBody(
+                                    required = true,
+                                    description = "Peticion del login",
+                                    content = @Content(schema = @Schema(implementation = AuthRequestDto.class))
+                            ),
+                            responses = {
+                                    @ApiResponse(responseCode = "200", description = "logeado exitosamente",
+                                            content = @Content(schema = @Schema(implementation = AuthRequestDto.class)))
+                            }
+                    )
+            ),
+
+            @RouterOperation(
+                    path = "/api/v1/usuarios/{documento}",
+                    produces = {"application/json"},
+                    method = RequestMethod.GET,
+                    beanClass = Handler.class,
+                    beanMethod = "listenGETBuscarUsuario",
+                    operation = @Operation(
+                            operationId = "existsBydocumentoIdentidad",
+                            summary = "Buscar un usuario",
+                            description = "Buscar un usuario por documento de identidad",
+                            tags = {"Usuario"},
+                            parameters = {
+                                    @Parameter(
+                                            name = "documento",
+                                            description = "Número de documento de identidad",
+                                            required = true,
+                                            in = ParameterIn.PATH,
+                                            schema = @Schema(type = "string")
+                                    )
+                            },
+                            responses = {
+                                    @ApiResponse(
+                                            responseCode = "200",
+                                            description = "Usuario encontrado",
+                                            content = @Content(schema = @Schema(implementation = RequestGuardarUsuarioDto.class))
+                                    )
                             }
                     )
             )
     })
 
 
+
+
     public RouterFunction<ServerResponse> routerFunction(Handler handler) {
-        return route(POST("/api/v1/usuarios"), handler::listenPOSTGuardarCase);
+        return route(POST("/api/v1/usuarios"), handler::listenPOSTGuardarCase)
+                .andRoute(GET("/api/v1/usuarios/{documento}"), handler::listenGETBuscarUsuario)
+                .andRoute(POST("/api/v1/login"), handler::listenPOSTgenerarToken);
+
     }
 
 
