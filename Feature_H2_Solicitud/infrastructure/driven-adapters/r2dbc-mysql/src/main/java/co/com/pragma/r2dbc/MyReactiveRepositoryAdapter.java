@@ -26,4 +26,8 @@ public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
         super(repository, mapper, d -> mapper.map(d, Solicitud.class));
     }
 
+    @Override
+    public Mono<Solicitud> save(Solicitud solicitud, String emailToken) {
+        return super.save(solicitud);
+    }
 }

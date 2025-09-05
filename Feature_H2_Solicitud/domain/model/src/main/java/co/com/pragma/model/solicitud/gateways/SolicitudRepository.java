@@ -7,6 +7,6 @@ import java.math.BigInteger;
 
 public interface SolicitudRepository {
 
-    Mono<Solicitud> save(Solicitud solicitud);
+    Mono<Solicitud> save(Solicitud solicitud,String emailToken);
 
 }

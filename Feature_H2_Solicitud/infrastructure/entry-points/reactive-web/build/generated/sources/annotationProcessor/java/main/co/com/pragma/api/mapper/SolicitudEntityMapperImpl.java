@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-08-31T23:12:18-0500",
+    date = "2025-09-04T18:47:12-0500",
     comments = "version: 1.6.3, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.14.3.jar, environment: Java 24.0.2 (Oracle Corporation)"
 )
 @Component
@@ -21,10 +21,10 @@ public class SolicitudEntityMapperImpl implements SolicitudEntityMapper {
 
         Solicitud.SolicitudBuilder solicitud = Solicitud.builder();
 
-        solicitud.documentoIdentificacion( solicitudEntity.getDocumentoIdentificacion() );
+        solicitud.identificacion( solicitudEntity.getIdentificacion() );
         solicitud.monto( solicitudEntity.getMonto() );
         solicitud.plazo( solicitudEntity.getPlazo() );
-        solicitud.tipoPrestamo( solicitudEntity.getTipoPrestamo() );
+        solicitud.idTipoPrestamo( solicitudEntity.getIdTipoPrestamo() );
         solicitud.correoElectronico( solicitudEntity.getCorreoElectronico() );
 
         return solicitud.build();
@@ -38,10 +38,10 @@ public class SolicitudEntityMapperImpl implements SolicitudEntityMapper {
 
         Solicitud.SolicitudBuilder solicitud1 = Solicitud.builder();
 
-        if ( solicitud.monto() != null ) {
-            solicitud1.monto( String.valueOf( solicitud.monto() ) );
-        }
+        solicitud1.identificacion( solicitud.identificacion() );
+        solicitud1.monto( solicitud.monto() );
         solicitud1.plazo( solicitud.plazo() );
+        solicitud1.idTipoPrestamo( solicitud.idTipoPrestamo() );
         solicitud1.correoElectronico( solicitud.correoElectronico() );
 
         return solicitud1.build();

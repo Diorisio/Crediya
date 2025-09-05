@@ -10,6 +10,7 @@ import jakarta.validation.Validator;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.context.ReactiveSecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
@@ -43,7 +44,14 @@ public class Handler {
                 })
                 .doOnNext(user -> log.info("Petición recibida para crear peticion: {}", user))
                 .map(mapper::toDomain)
-                .flatMap(useCase::save)
+                .zipWith(ReactiveSecurityContextHolder.getContext()
+                        .map(ctx -> ctx.getAuthentication().getName()))
+                .flatMap(tuple -> {
+                    Solicitud solicitud = tuple.getT1();
+                    String emailToken = tuple.getT2(); // viene del JWT
+                    return useCase.save(solicitud, emailToken);
+                })
+
                 .flatMap(savedSolicitud ->
                         ServerResponse.status(HttpStatus.CREATED)
                                 .bodyValue(savedSolicitud)
