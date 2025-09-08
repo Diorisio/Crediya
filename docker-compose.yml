@@ -1,0 +1,68 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: usuario
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/init:/docker-entrypoint-initdb.d   # scripts SQL iniciales
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-prootpass"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - backend
+
+  autenticacion:
+    build: ./autenticacion
+    container_name: autenticacion-service
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql:3306/usuario
+      SPRING_R2DBC_USERNAME: appuser
+      SPRING_R2DBC_PASSWORD: apppass
+
+      # JWT, otras configs
+      JWT_SECRET: aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+
+  solicitudes:
+    build: ./solicitudes
+    container_name: solicitudes-service
+    depends_on:
+      mysql:
+        condition: service_healthy
+      autenticacion:
+        condition: service_started
+    environment:
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql:3306/usuario
+      SPRING_R2DBC_USERNAME: appuser
+      SPRING_R2DBC_PASSWORD: apppass
+      AUTH_BASE_URL: http://autenticacion:8080
+    ports:
+      - "8081:8081"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  mysql_data:
