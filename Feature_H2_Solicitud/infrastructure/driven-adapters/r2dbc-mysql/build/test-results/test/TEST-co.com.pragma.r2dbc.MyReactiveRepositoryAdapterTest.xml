@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-09-02T14:03:09.802Z" hostname="DESKTOP-VPLJBJ7" time="5.287">
-  <properties/>
-  <testcase name="guardarSolicitudExitosamenteTest()" classname="co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest" time="5.099"/>
-  <testcase name="guardarSolicitudConDtoNuloLanzaNullPointerTest()" classname="co.com.pragma.r2dbc.MyReactiveRepositoryAdapterTest" time="0.184"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
