@@ -43,7 +43,10 @@ adapter:
   restconsumer:
     timeout: 5000
     url: "http://localhost:8080"
-resilience4j:
+  sqs:
+    region: "us-east-2"
+    queueUrl: "http://localhost:4569/000000000000/sample"
+    resilience4j: null
   circuitbreaker:
     instances:
       testGet:
@@ -65,5 +68,14 @@ resilience4j:
         minimumNumberOfCalls: 10
         waitDurationInOpenState: "10s"
 jwt:
-  secret-key: aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!
-  expiration: 3600   # en segundos (1 hora)
+  secret-key: "aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!"
+  expiration: 3600
+entrypoint:
+  sqs:
+    region: "us-east-1"
+    endpoint: "http://localhost:4567"
+    queueUrl: "http://localhost:4567/000000000000/sample"
+    waitTimeSeconds: 20
+    maxNumberOfMessages: 10
+    visibilityTimeoutSeconds: 10
+    numberOfThreads: 1

@@ -1,0 +1,18 @@
+adapters:
+  r2dbc:
+    host: "mysql"
+    port: 3306
+    database: "usuario"
+    username: "appuser"
+    password: "apppass"
+    pool:
+      initial-size: 5
+      max-size: 20
+      max-idle-time: 30s
+      validation-query: "SELECT 1"
+      max-create-connection-time: 10s
+      retry:
+        max-attempts: 10
+        initial-interval: 3s
+        multiplier: 1.5
+        max-interval: 10s

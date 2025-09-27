@@ -12,6 +12,8 @@ import java.time.LocalDate;
 @Builder(toBuilder = true)
 public class Solicitud {
 
+    private Long idSolicitud;
+
     private BigInteger identificacion;
 
     private Double monto;

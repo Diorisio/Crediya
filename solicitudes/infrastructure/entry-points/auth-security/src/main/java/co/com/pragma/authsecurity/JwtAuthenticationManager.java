@@ -25,7 +25,7 @@ public class JwtAuthenticationManager implements ReactiveAuthenticationManager {
                 .filter(Boolean::booleanValue)
                 .map(valid -> {
                     String username = tokenRepository.extractUserEmail(token);
-                    String role = tokenRepository.extractRole(token); // ROLE_ADMIN o ROLE_USER
+                    String role = tokenRepository.extractRole(token); // ROLE_ADMIN o ROLE_USUARIO O ROL_ASESOR
 
                     return new UsernamePasswordAuthenticationToken(
                             username,

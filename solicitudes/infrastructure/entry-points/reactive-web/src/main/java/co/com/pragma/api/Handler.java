@@ -5,7 +5,9 @@ import co.com.pragma.api.dto.RequestSolicitud;
 import co.com.pragma.api.mapper.SolicitudEntityMapper;
 import co.com.pragma.model.solicitud.ListaSolicitudes;
 import co.com.pragma.model.solicitud.Solicitud;
+import co.com.pragma.usecase.solicitud.ActualizarSolicitudUseCase;
 import co.com.pragma.usecase.solicitud.SolicitudUseCase;
+import co.com.pragma.usecase.solicitud.ValidacionAutomaticaUseCase;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Validator;
@@ -30,6 +32,10 @@ import java.util.Set;
 public class Handler {
 
     private  final SolicitudUseCase useCase;
+
+    private  final ValidacionAutomaticaUseCase validacionAutomaticaUseCase;
+
+    private  final ActualizarSolicitudUseCase actualizarSolicitudUseCase;
 
     private final SolicitudEntityMapper mapper;
 
@@ -97,4 +103,20 @@ public class Handler {
                         .contentType(MediaType.APPLICATION_JSON)
                         .bodyValue(response));
     }
+
+    public Mono<ServerResponse> listenPUTactualizar(ServerRequest request) {
+        Long id = Long.parseLong(request.pathVariable("id"));
+        log.info("Recibida petición PUT para actualizar solicitud con id={}", id);
+
+        return request.bodyToMono(RequestSolicitud.class)
+                .doOnNext(body -> log.debug("Payload recibido: {}", body))
+                .flatMap(body -> {
+                    log.info("Llamando a actualizarEstado con id={} y idEstado={}", id, body.id_estado());
+                    return actualizarSolicitudUseCase.actualizarEstado(id, body.id_estado());
+                })
+                .doOnSuccess(updated -> log.info("Solicitud actualizada correctamente: {}", updated))
+                .doOnError(error -> log.error("Error actualizando solicitud con id={}: {}", id, error.getMessage(), error))
+                .flatMap(updated -> ServerResponse.ok().bodyValue(updated));
+    }
+
 }

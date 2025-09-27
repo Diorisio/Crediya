@@ -45,8 +45,7 @@ class UsuarioUseCaseTest {
 
     private Usuario usuario;
 
-    @Autowired
-    private WebTestClient webTestClient;
+
 
 
     @Test

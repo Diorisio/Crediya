@@ -1,10 +1,7 @@
 package co.com.pragma.usecase.solicitud;
 
 import co.com.pragma.model.solicitud.*;
-import co.com.pragma.model.solicitud.gateways.EstadoRepository;
-import co.com.pragma.model.solicitud.gateways.SolicitudRepository;
-import co.com.pragma.model.solicitud.gateways.TipoPrestamoRepository;
-import co.com.pragma.model.solicitud.gateways.UsuarioClient;
+import co.com.pragma.model.solicitud.gateways.*;
 import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
 import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
@@ -36,11 +33,17 @@ class SolicitudUseCaseTest {
     @Mock
     private SolicitudRepository solicitudRepository;
 
+    @Mock
+    private ValidacionAutomaticaUseCase validacionAutomaticaUseCase;
+
+    @Mock
+    private ColaMensajesGateway colaMensajesGateway;
+
     private SolicitudUseCase useCase;
 
     @BeforeEach
     void setUp() {
-        useCase = new SolicitudUseCase(solicitudRepository, usuarioClient, tipoPrestamoRepository,estadoRepository);
+        useCase = new SolicitudUseCase(solicitudRepository, usuarioClient, tipoPrestamoRepository,estadoRepository,validacionAutomaticaUseCase);
     }
 
     @Test
@@ -64,10 +67,10 @@ class SolicitudUseCaseTest {
         TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
                 .idTipoPrestamo(2L)
                 .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
+                .tasaInteres(8)
+                .montoMaximo(500000.0)
+                .montoMinimo(10000.0)
+                .validacionAutomatica(true)
                 .build();
 
         when(usuarioClient.existeUsuario(BigInteger.valueOf(32123)))
@@ -99,20 +102,11 @@ class SolicitudUseCaseTest {
                 .plazo(12)
                 .build();
 
-        Usuario usuario = Usuario.builder()
-                .idusuario(1L)
-                .nombre("Ana")
-                .apellido("García")
-                .salarioBase(BigInteger.valueOf(2500))
-                .documentoIdentidad("99999")
-                .build();
+        // Simulamos que no existe usuario
+        when(usuarioClient.existeUsuario(BigInteger.valueOf(32123)))
+                .thenReturn(Mono.empty());
 
-
-
-
-        when(usuarioClient.existeUsuario(BigInteger.valueOf(32123))).thenReturn(Mono.just(usuario));
-
-        Mono<Solicitud> result = useCase.save(solicitud,solicitud.getCorreoElectronico());
+        Mono<Solicitud> result = useCase.save(solicitud, solicitud.getCorreoElectronico());
 
         StepVerifier.create(result)
                 .expectError(UsuarioNotFoundException.class)
@@ -140,25 +134,21 @@ class SolicitudUseCaseTest {
                 .documentoIdentidad("99999")
                 .build();
 
-        TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
-                .idTipoPrestamo(2L)
-                .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
-                .build();
-
+        // Usuario sí existe
         when(usuarioClient.existeUsuario(BigInteger.valueOf(32123)))
                 .thenReturn(Mono.just(usuario));
 
+        // Pero el tipo de préstamo no existe
         when(tipoPrestamoRepository.findByIdTipoPrestamo(1L))
-                .thenReturn(Mono.just(tipoPrestamo));
+                .thenReturn(Mono.empty());
 
-        // when / then
-        StepVerifier.create(useCase.save(solicitud,solicitud.getCorreoElectronico()))
+        StepVerifier.create(useCase.save(solicitud, solicitud.getCorreoElectronico()))
                 .expectError(TipoPrestamoNotFoundException.class)
                 .verify();
+
+        verify(usuarioClient).existeUsuario(BigInteger.valueOf(32123));
+        verify(tipoPrestamoRepository).findByIdTipoPrestamo(1L);
+        verifyNoInteractions(solicitudRepository);
     }
 
     @Test
@@ -175,10 +165,10 @@ class SolicitudUseCaseTest {
         TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
                 .idTipoPrestamo(2L)
                 .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
+                .tasaInteres(8)
+                .montoMaximo(500000.0)
+                .montoMinimo(10000.0)
+                .validacionAutomatica(true)
                 .build();
         Usuario usuario = Usuario.builder()
                 .idusuario(1L)
@@ -245,10 +235,10 @@ class SolicitudUseCaseTest {
         TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
                 .idTipoPrestamo(2L)
                 .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
+                .tasaInteres(8)
+                .montoMaximo(500000.0)
+                .montoMinimo(10000.0)
+                .validacionAutomatica(true)
                 .build();
 
         when(solicitudRepository.findbyIdEstado("1"))
@@ -291,12 +281,13 @@ class SolicitudUseCaseTest {
         TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
                 .idTipoPrestamo(2L)
                 .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
+                .tasaInteres(8)
+                .montoMaximo(500000.0)
+                .montoMinimo(10000.0)
+                .validacionAutomatica(true)
                 .build();
 
+        Estado estado = new Estado(BigInteger.valueOf(2), "APROBADO");
 
         when(solicitudRepository.findbyIdEstado("2"))
                 .thenReturn(Flux.just(solicitud));
@@ -307,15 +298,25 @@ class SolicitudUseCaseTest {
         when(tipoPrestamoRepository.findByIdTipoPrestamo(solicitud.getIdTipoPrestamo()))
                 .thenReturn(Mono.just(tipoPrestamo));
 
-        when(estadoRepository.findByIdEstado(BigInteger.valueOf(1)))
-                .thenReturn(Mono.just(new Estado(BigInteger.valueOf(3), "RECHAZADO")));
+        // Aquí el mock debe usar el mismo ID que tiene la solicitud
+        when(estadoRepository.findByIdEstado(BigInteger.valueOf(2)))
+                .thenReturn(Mono.just(estado));
 
-        Flux<ListaSolicitudes> resultado = useCase.listarSolicitudes("2", 0, 10, null, BigInteger.valueOf(99999));
+        Flux<ListaSolicitudes> resultado =
+                useCase.listarSolicitudes("2", 0, 10, null, BigInteger.valueOf(99999));
 
         StepVerifier.create(resultado)
-                .expectNextMatches(lista -> lista.getIdentificacion().equals(BigInteger.valueOf(99999)))
+                .expectNextMatches(lista ->
+                        lista.getIdentificacion().equals(BigInteger.valueOf(99999)) &&
+                                lista.getNombre().equals("Ana") &&
+                                lista.getEstado().equals("APROBADO") &&
+                                lista.getTipoPrestamo().equals("Hipotecario") &&
+                                lista.getDeudaTotal() != null &&
+                                lista.getSalarioBase().equals(BigInteger.valueOf(2500))
+                )
                 .verifyComplete();
     }
+
 
     @Test
     void listarSolicitudes_paginacion() {
@@ -335,50 +336,47 @@ class SolicitudUseCaseTest {
         s2.setIdEstado(BigInteger.valueOf(2));
         s2.setIdTipoPrestamo(2L);
 
-        Usuario usuario1 = Usuario.builder()
-                .idusuario(1L)
-                .nombre("Ana")
-                .apellido("García")
-                .salarioBase(BigInteger.valueOf(2500))
-                .documentoIdentidad("99999")
-                .build();
-
         Usuario usuario2 = Usuario.builder()
-                .idusuario(1L)
-                .nombre("Ana")
-                .apellido("García")
+                .idusuario(2L)
+                .nombre("Luis")
+                .apellido("Pérez")
                 .salarioBase(BigInteger.valueOf(3000))
-                .documentoIdentidad("999999")
+                .documentoIdentidad("88888")
                 .build();
 
         TipoPrestamo tipoPrestamo = TipoPrestamo.builder()
                 .idTipoPrestamo(2L)
                 .nombre("Hipotecario")
-                .tasa_interes(8)
-                .monto_maximo(500000.0)
-                .monto_minimo(10000.0)
-                .validacion_automatica(true)
+                .tasaInteres(8)
+                .montoMaximo(500000.0)
+                .montoMinimo(10000.0)
+                .validacionAutomatica(true)
                 .build();
 
-        when(solicitudRepository.findbyIdEstado("1"))
+        when(solicitudRepository.findbyIdEstado("2"))
                 .thenReturn(Flux.just(s1, s2));
 
-        when(usuarioClient.existeUsuario(BigInteger.valueOf(1)))
-                .thenReturn(Mono.just(usuario1));
         when(usuarioClient.existeUsuario(BigInteger.valueOf(2)))
                 .thenReturn(Mono.just(usuario2));
 
-        when(tipoPrestamoRepository.findByIdTipoPrestamo(s1.getIdTipoPrestamo()))
+        when(tipoPrestamoRepository.findByIdTipoPrestamo(2L))
                 .thenReturn(Mono.just(tipoPrestamo));
 
-        when(estadoRepository.findByIdEstado(BigInteger.valueOf(1)))
-                .thenReturn(Mono.just(new Estado(BigInteger.valueOf(1), "PENDIENTE")));
+        when(estadoRepository.findByIdEstado(BigInteger.valueOf(2)))
+                .thenReturn(Mono.just(new Estado(BigInteger.valueOf(2), "PENDIENTE")));
 
-        Flux<ListaSolicitudes> resultado = useCase.listarSolicitudes("1", 1, 1, null, null);
+        Flux<ListaSolicitudes> resultado =
+                useCase.listarSolicitudes("2", 1, 1, null, null);
 
         StepVerifier.create(resultado)
-                .expectNextMatches(lista -> lista.getIdentificacion().equals(BigInteger.valueOf(2)))
+                .expectNextMatches(lista ->
+                        lista.getIdentificacion().equals(BigInteger.valueOf(2)) &&
+                                lista.getCorreoElectronico().equals("dos@ejemplo.com") &&
+                                lista.getEstado().equals("PENDIENTE")
+                )
                 .verifyComplete();
     }
+
+
 }
 

@@ -9,6 +9,8 @@ import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.math.BigInteger;
+
 @Repository
 public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
         Solicitud,
@@ -34,4 +36,15 @@ public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
     public Flux<Solicitud> findbyIdEstado(String estado) {
         return super.repository.findByIdEstado(estado);
     }
+
+    @Override
+    public Mono<Solicitud> findByIdSolicitud(Long idSolicitud) {
+        return super.repository.findByIdSolicitud(idSolicitud);
+    }
+
+    @Override
+    public Flux<Solicitud> findByIdentificacion(BigInteger identificacion) {
+        return super.repository.findByIdentificacion(identificacion);
+    }
+
 }

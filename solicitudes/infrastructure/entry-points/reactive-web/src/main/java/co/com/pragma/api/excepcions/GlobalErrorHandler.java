@@ -2,6 +2,7 @@ package co.com.pragma.api.excepcions;
 
 
 import co.com.pragma.api.dto.ErrorResponse;
+import co.com.pragma.usecase.solicitud.excepcions.EstadoFoundException;
 import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
 import co.com.pragma.usecase.solicitud.excepcions.TokenEmailNotMatch;
 import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
@@ -76,6 +77,14 @@ public class GlobalErrorHandler implements WebExceptionHandler {
             status = HttpStatus.NOT_FOUND;
             body = ErrorResponse.builder()
                     .codigo("DOM-005")
+                    .mensaje(ex.getMessage())
+                    .timestamp(LocalDateTime.now())
+                    .build();
+        }
+        else if (ex instanceof EstadoFoundException) {
+            status = HttpStatus.NOT_FOUND;
+            body = ErrorResponse.builder()
+                    .codigo("DOM-006")
                     .mensaje(ex.getMessage())
                     .timestamp(LocalDateTime.now())
                     .build();

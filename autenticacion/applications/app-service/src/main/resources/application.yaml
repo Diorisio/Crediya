@@ -39,4 +39,4 @@ logging:
     co.com.pragma: DEBUG
 jwt:
   secret-key: aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!
-  expiration: 3600   # en segundos (1 hora)
+  expiration: 3600

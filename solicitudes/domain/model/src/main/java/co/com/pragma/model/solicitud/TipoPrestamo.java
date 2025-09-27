@@ -14,13 +14,13 @@ import java.math.BigInteger;
 public class TipoPrestamo {
     private Long idTipoPrestamo;
 
-    private Double monto_maximo;
+    private Double montoMaximo;
 
-    private Double monto_minimo;
+    private Double montoMinimo;
 
-    private Integer tasa_interes ;
+    private Integer tasaInteres ;
 
     private String nombre;
 
-    private Boolean validacion_automatica;
+    private Boolean validacionAutomatica;
 }

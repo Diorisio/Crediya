@@ -1,6 +1,7 @@
 package co.com.pragma.api;
 
 import co.com.pragma.api.dto.AuthRequestDto;
+import co.com.pragma.api.dto.AuthResponseDto;
 import co.com.pragma.api.dto.RequestGuardarUsuarioDto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -69,30 +70,33 @@ public class RouterRest {
             ),
 
             @RouterOperation(
-                    path = "/api/v1/usuarios/{documento}",
-                    produces = {"application/json"},
-                    method = RequestMethod.GET,
-                    beanClass = Handler.class,
-                    beanMethod = "listenGETBuscarUsuario",
+                    path = "/api/v1/login",
+                    method = RequestMethod.POST,
+                    beanClass = Handler.class, // tu clase donde está listenPOSTgenerarToken
+                    beanMethod = "listenPOSTgenerarToken",
                     operation = @Operation(
-                            operationId = "existsBydocumentoIdentidad",
-                            summary = "Buscar un usuario",
-                            description = "Buscar un usuario por documento de identidad",
-                            tags = {"Usuario"},
-                            parameters = {
-                                    @Parameter(
-                                            name = "documento",
-                                            description = "Número de documento de identidad",
-                                            required = true,
-                                            in = ParameterIn.PATH,
-                                            schema = @Schema(type = "string")
-                                    )
-                            },
+                            operationId = "generarToken",
+                            summary = "Generar un token JWT",
+                            description = "Recibe credenciales del usuario y retorna un token JWT si son válidas",
+                            tags = {"Auth"},
+                            requestBody = @RequestBody(
+                                    required = true,
+                                    description = "Credenciales del usuario",
+                                    content = @Content(schema = @Schema(implementation = AuthRequestDto.class))
+                            ),
                             responses = {
                                     @ApiResponse(
-                                            responseCode = "200",
-                                            description = "Usuario encontrado",
-                                            content = @Content(schema = @Schema(implementation = RequestGuardarUsuarioDto.class))
+                                            responseCode = "201",
+                                            description = "Token generado correctamente",
+                                            content = @Content(schema = @Schema(implementation = AuthResponseDto.class))
+                                    ),
+                                    @ApiResponse(
+                                            responseCode = "400",
+                                            description = "Error de validación en las credenciales"
+                                    ),
+                                    @ApiResponse(
+                                            responseCode = "401",
+                                            description = "Credenciales inválidas"
                                     )
                             }
                     )

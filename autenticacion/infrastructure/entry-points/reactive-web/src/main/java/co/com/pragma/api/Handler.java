@@ -53,7 +53,7 @@ public class Handler {
                 .flatMap(useCase::saveUsuario)
                 .flatMap(savedUser ->
                         ServerResponse.status(HttpStatus.CREATED)
-                                .bodyValue(savedUser)
+                                .bodyValue("Usuario guardado correctamente")
                 )
                 .doOnSubscribe(sub -> log.debug("Iniciando flujo de guardado de usuario"))
                 .doOnSuccess(resp -> log.debug("Respuesta construida correctamente"))
@@ -93,6 +93,6 @@ public class Handler {
                 )
                 .doOnSubscribe(sub -> log.debug("Iniciando flujo para generar token"))
                 .doOnSuccess(resp -> log.debug("Respuesta construida correctamente"))
-                .doOnError(e -> log.error("Error al guardar usuario", e));
+                .doOnError(e -> log.error("Error al general el token", e));
     }
 }

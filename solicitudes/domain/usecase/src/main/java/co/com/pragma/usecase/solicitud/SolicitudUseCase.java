@@ -1,10 +1,7 @@
 package co.com.pragma.usecase.solicitud;
 
 import co.com.pragma.model.solicitud.*;
-import co.com.pragma.model.solicitud.gateways.EstadoRepository;
-import co.com.pragma.model.solicitud.gateways.SolicitudRepository;
-import co.com.pragma.model.solicitud.gateways.TipoPrestamoRepository;
-import co.com.pragma.model.solicitud.gateways.UsuarioClient;
+import co.com.pragma.model.solicitud.gateways.*;
 import co.com.pragma.usecase.solicitud.excepcions.TipoPrestamoNotFoundException;
 import co.com.pragma.usecase.solicitud.excepcions.TokenEmailNotMatch;
 import co.com.pragma.usecase.solicitud.excepcions.UsuarioNotFoundException;
@@ -21,21 +18,37 @@ public class SolicitudUseCase {
     private final UsuarioClient usuarioClient;
     private final TipoPrestamoRepository tipoPrestamoRepository;
     private final EstadoRepository estadoRepository;
+    private final ValidacionAutomaticaUseCase validacionAutomaticaUseCase;
 
 
-    public Mono<Solicitud> save(Solicitud solicitud,String emailToken)
-        {
-            if (!solicitud.getCorreoElectronico().equals(emailToken)) {
-                return Mono.error(new TokenEmailNotMatch());
-            }
-            return usuarioClient.existeUsuario(solicitud.getIdentificacion())
-                    .switchIfEmpty(Mono.error(new UsuarioNotFoundException(solicitud.getIdentificacion())))
-                    .zipWhen(usuario ->
-                            tipoPrestamoRepository.findByIdTipoPrestamo(solicitud.getIdTipoPrestamo())
-                                    .switchIfEmpty(Mono.error(new TipoPrestamoNotFoundException(solicitud.getIdTipoPrestamo())))
-                    )
-                    .flatMap(tuple -> solicitudRepository.save(solicitud, emailToken));
+    public Mono<Solicitud> save(Solicitud solicitud, String emailToken) {
+
+        if (!solicitud.getCorreoElectronico().equals(emailToken)) {
+            return Mono.error(new TokenEmailNotMatch());
         }
+        return usuarioClient.existeUsuario(solicitud.getIdentificacion())
+                .switchIfEmpty(Mono.error(new UsuarioNotFoundException(solicitud.getIdentificacion())))
+                .zipWhen(usuario ->
+                        tipoPrestamoRepository.findByIdTipoPrestamo(solicitud.getIdTipoPrestamo())
+                                .switchIfEmpty(
+                                        Mono.error(
+                                                new TipoPrestamoNotFoundException(solicitud.getIdTipoPrestamo())))
+                )
+                .flatMap(tuple ->
+
+                        solicitudRepository.save(solicitud, emailToken)
+
+                                .flatMap(saved ->{
+                                    if (Boolean.TRUE.equals(tuple.getT2().getValidacionAutomatica())) {
+
+                                        return validacionAutomaticaUseCase.validarSolicitud(saved,tuple.getT1())
+                                                .thenReturn(saved);
+                                    }
+
+                                    return Mono.just(saved);
+                                })
+                );
+    }
 
 
 
@@ -61,10 +74,11 @@ public class SolicitudUseCase {
                             var usuario = tuple.getT1();
                             var tipoPrestamo = tuple.getT2();
                             var estado = tuple.getT3();
+                            //Comentar la formula
 
-                            double cuota = solicitud.getMonto() * ((tipoPrestamo.getTasa_interes() / 100.0) *
-                                    Math.pow(1 + (tipoPrestamo.getTasa_interes() / 100.0),
-                                            solicitud.getPlazo())) / (Math.pow(1 + (tipoPrestamo.getTasa_interes() / 100.0),
+                            double cuota = solicitud.getMonto() * ((tipoPrestamo.getTasaInteres() / 100.0) *
+                                    Math.pow(1 + (tipoPrestamo.getTasaInteres() / 100.0),
+                                            solicitud.getPlazo())) / (Math.pow(1 + (tipoPrestamo.getTasaInteres() / 100.0),
                                     solicitud.getPlazo()) - 1);
 
                             double cuotaMensual = Math.round(cuota * 100.0) / 100.0;

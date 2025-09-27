@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   mysql:
     image: mysql:8.0
@@ -11,10 +9,10 @@ services:
       MYSQL_USER: appuser
       MYSQL_PASSWORD: apppass
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./db/init:/docker-entrypoint-initdb.d   # scripts SQL iniciales
+      - ./db/init:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-prootpass"]
       interval: 10s
@@ -25,17 +23,18 @@ services:
       - backend
 
   autenticacion:
-    build: ./autenticacion
+    build:
+      context: ./autenticacion
+      dockerfile: deployment/Dockerfile
     container_name: autenticacion-service
     depends_on:
       mysql:
         condition: service_healthy
     environment:
+      SPRING_PROFILES_ACTIVE: docker
       SPRING_R2DBC_URL: r2dbc:mysql://mysql:3306/usuario
       SPRING_R2DBC_USERNAME: appuser
       SPRING_R2DBC_PASSWORD: apppass
-
-      # JWT, otras configs
       JWT_SECRET: aVeryStrongSecretKeyThatIsAtLeast32CharsLong!!
     ports:
       - "8080:8080"
@@ -43,7 +42,9 @@ services:
       - backend
 
   solicitudes:
-    build: ./solicitudes
+    build:
+      context: ./solicitudes
+      dockerfile: deployment/Dockerfile
     container_name: solicitudes-service
     depends_on:
       mysql:
@@ -51,14 +52,46 @@ services:
       autenticacion:
         condition: service_started
     environment:
-      SPRING_R2DBC_URL: r2dbc:mysql://mysql:3306/usuario
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql:3306/prestamos
       SPRING_R2DBC_USERNAME: appuser
       SPRING_R2DBC_PASSWORD: apppass
+
+      # Pool de conexiones
+      SPRING_R2DBC_POOL_INITIAL_SIZE: 5
+      SPRING_R2DBC_POOL_MAX_SIZE: 20
+      SPRING_R2DBC_POOL_MAX_IDLE_TIME: 30s
+      SPRING_R2DBC_POOL_MAX_CREATE_CONNECTION_TIME: 10s
+      SPRING_R2DBC_POOL_VALIDATION_QUERY: "SELECT 1"
+
       AUTH_BASE_URL: http://autenticacion:8080
+
+       # AWS Credentials
+      AWS_ACCESS_KEY_ID: AKIA43GEDPOZAODOWVPI
+      AWS_SECRET_ACCESS_KEY: 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
+      AWS_REGION: us-east-2  
     ports:
       - "8081:8081"
     networks:
       - backend
+
+  reportes:
+    build:
+      context: ./reportes
+      dockerfile: deployment/Dockerfile
+    container_name: reportes-service
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      AWS_ACCESS_KEY_ID: AKIA43GEDPOZAODOWVPI
+      AWS_SECRET_ACCESS_KEY: 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
+      AWS_REGION: us-east-2  
+      SQS_QUEUE_NAME: reportes-queue
+      DYNAMODB_TABLE: reportes
+    ports:
+      - "8082:8082"
+    networks:
+      - backend
+    
 
 networks:
   backend:
