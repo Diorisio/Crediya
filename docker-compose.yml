@@ -67,8 +67,8 @@ services:
       AUTH_BASE_URL: http://autenticacion:8080
 
        # AWS Credentials
-      AWS_ACCESS_KEY_ID: AKIA43GEDPOZAODOWVPI
-      AWS_SECRET_ACCESS_KEY: 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
+      AWS_ACCESS_KEY_ID: keyI
+      AWS_SECRET_ACCESS_KEY: acceso
       AWS_REGION: us-east-2  
     ports:
       - "8081:8081"
@@ -82,8 +82,8 @@ services:
     container_name: reportes-service
     environment:
       SPRING_PROFILES_ACTIVE: docker
-      AWS_ACCESS_KEY_ID: AKIA43GEDPOZAODOWVPI
-      AWS_SECRET_ACCESS_KEY: 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
+      AWS_ACCESS_KEY_ID: keyI
+      AWS_SECRET_ACCESS_KEY: acceso
       AWS_REGION: us-east-2  
       SQS_QUEUE_NAME: reportes-queue
       DYNAMODB_TABLE: reportes
