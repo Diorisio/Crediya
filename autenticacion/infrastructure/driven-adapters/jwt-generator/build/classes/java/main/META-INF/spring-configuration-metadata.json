@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "co.com.pragma.jwtgenerator.JwtProperties",
+      "sourceType": "co.com.pragma.jwtgenerator.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "co.com.pragma.jwtgenerator.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jwt.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "co.com.pragma.jwtgenerator.JwtProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

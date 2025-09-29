@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/ReactiveProject.app-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/dynamo-db/ReactiveProject.dynamo-db.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/dynamo-db/ReactiveProject.dynamo-db.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/helpers/metrics/ReactiveProject.metrics.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/helpers/metrics/ReactiveProject.metrics.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/ReactiveProject.model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/ReactiveProject.reactive-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/ReactiveProject.reactive-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/sqs-listener/ReactiveProject.sqs-listener.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/sqs-listener/ReactiveProject.sqs-listener.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/ReactiveProject.usecase.main.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+adapters:
+  r2dbc:
+    host: "mysql"
+    port: 3306
+    database: "prestamos"
+    username: "appuser"
+    password: "apppass"
+    pool:
+      initial-size: 5
+      max-size: 20
+      max-idle-time: 30s
+      validation-query: "SELECT 1"
+      max-create-connection-time: 10s
+      retry:
+        max-attempts: 10
+        initial-interval: 3s
+        multiplier: 1.5
+        max-interval: 10s
+adapter:
+  restconsumer:
+    timeout: 5000
+    url: "http://autenticacion:8080"
+  sqs:
+    region: "us-east-2"
+    queueUrl:  "https://sqs.us-east-2.amazonaws.com/883027049394/prestamos_cola"
+    queueUrlCola:  "https://sqs.us-east-2.amazonaws.com/883027049394/solicitudes-capacidad-cola"
+    queueUrlReporte:  "https://sqs.us-east-2.amazonaws.com/883027049394/reportes-queue"

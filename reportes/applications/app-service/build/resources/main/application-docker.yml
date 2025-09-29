@@ -1,0 +1,31 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  r2dbc:
+    url: r2dbc:mysql://mysql:3306/prestamos
+    username: appuser
+    password: apppass
+    pool:
+      initial-size: 5
+      max-size: 20
+      max-idle-time: 30s
+      max-create-connection-time: 10s
+      validation-query: "SELECT 1"
+
+server:
+  port: 8082
+
+logging:
+  level:
+    root: INFO
+    co.com.pragma: DEBUG
+
+entrypoint:
+  sqs:
+    region: us-east-2
+    endpoint: https://sqs.us-east-2.amazonaws.com
+    queue-url: https://sqs.us-east-2.amazonaws.com/883027049394/reportes-queue
+    wait-time-seconds: 20
+    visibility-timeout-seconds: 30
+    max-number-of-messages: 10
+    number-of-threads: 5

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/app-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/app-service_main.iml" group="ReactiveProject/app-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/auth-security/auth-security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/auth-security/auth-security_main.iml" group="ReactiveProject/auth-security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jwt-generator/jwt-generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/jwt-generator/jwt-generator_main.iml" group="ReactiveProject/jwt-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/model_main.iml" group="ReactiveProject/model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/r2dbc-mysql_main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/r2dbc-mysql_main.iml" group="ReactiveProject/r2dbc-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/r2dbc-mysql_test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/r2dbc-mysql_test.iml" group="ReactiveProject/r2dbc-mysql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/reactive-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/reactive-web_main.iml" group="ReactiveProject/reactive-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/reactive-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/reactive-web_test.iml" group="ReactiveProject/reactive-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/usecase_main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/usecase_main.iml" group="ReactiveProject/usecase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/usecase_test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/usecase_test.iml" group="ReactiveProject/usecase" />
+    </modules>
+  </component>
+</project>
